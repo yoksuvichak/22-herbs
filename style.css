@@ -338,7 +338,10 @@ header{
 
 .img {
     height: 400px;
-    background-color: aliceblue;
+    background-size: cover;
+}
+.pic1{
+    background-image: url(/coffee.jpg);
 }
 .content {
     text-align: center;
