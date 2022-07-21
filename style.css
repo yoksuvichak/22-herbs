@@ -8,7 +8,7 @@ header{
     background-color: rgb(90, 185, 162);
     text-align: center;
     box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 10px;
@@ -26,6 +26,7 @@ header{
     float: left;
     margin-left: 20px;
     overflow: hidden;
+    text-align: center;
 
 }
 
@@ -88,6 +89,7 @@ header{
     float: right;
     margin-left: 20px;
     overflow: hidden;
+    text-align: center;
 
 }
 .main5{
@@ -104,6 +106,7 @@ header{
     float: right;
     margin-right: 20px;
     overflow: hidden;
+    text-align: center;
 }
 .main6{
     display: block;
@@ -147,7 +150,7 @@ header{
     float: right;
     margin-left: 20px;
     overflow: hidden;
-
+    text-align: center;
 }
 .main9{   
     display: block;
@@ -162,6 +165,7 @@ header{
     float: right;
     margin-right: 20px;
     overflow: hidden;
+    text-align: center;
 }
 .main10{
     display: block;
@@ -176,7 +180,7 @@ header{
     float: right;
     margin-left: 20px;
     overflow: hidden;
-
+    text-align: center;
 }
 .main11{   
     display: block;
@@ -336,10 +340,11 @@ header{
     float: right;
     margin-right: 20px;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .img {
-    height: 400px;
+    height: 450px;
     background-size: cover;
 }
 .pic{
@@ -363,17 +368,59 @@ header{
     background-image: url(/หัวร้อยรู.jpg);
 }
 .pic6{
-    background-image: url(/ขันทองพยาบาท.webp);
+    background-image: url(/กระทุ่มนา.jpg);
 }
 .pic7{
-    background-image: url(/จุกโรหินี.webp);
+    background-image: url(/ขันทองพยาบาท.webp);
 }
 .pic8{
-    background-image: url(/ชะเอมไทย.jpg);
+    background-image: url(/จุกโรหินี.webp);
 }
 .pic9{
+    background-image: url(/ชะเอมไทย.jpg);
+}
+.pic10{
     background-image: url(/ชิงชี่.jpg);
 }
+.pic11{
+    background-image: url(/ตับเต่าต้น-298x248.jpg);
+}
+.pic12{
+    background-image: url(/Clerodendrum-viscosum.jpg);
+}
+.pic13{
+    background-image: url(/ต้นปลาไหลเผือก.jpg);
+}
+.pic14{
+    background-image: url(/พังคี.jpg);
+}
+.pic15{
+    background-image: url(/ดอกมะคังแดง.webp);
+}
+.pic16{
+    background-image: url(/สะค้าน.webp);
+}
+.pic17{
+    background-image: url(/สารภีป่า.jpg);
+}
+.pic18{
+    background-image: url(/อบเชยไทย.jpg);
+}
+.pic19{
+    background-image: url(/เฉียงพร้านางแอ.jpg);
+}
+.pic20{
+    background-image: url(/เถาเอ็นอ่อน.jpg);
+}
+.pic21{
+    background-image: url(/sacred-is-good-medicine-4.jpg);
+}
+
+
+
+
+
+
 .content {
     text-align: center;
     border-bottom: 2px solid #e5e5e5;
