@@ -1,13 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
 }
-header{
+
+header {
     background-color: rgb(90, 185, 162);
     text-align: center;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
@@ -15,13 +16,13 @@ header{
 
 }
 
-.main{
+.main {
     width: 600px;
-    margin: 2rem auto ;
+    margin: 2rem auto;
     height: 700px;
     position: absolute;
     left: 250px;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     float: left;
     margin-left: 20px;
@@ -30,61 +31,62 @@ header{
 
 }
 
-.main1{
+.main1 {
     display: block;
     position: absolute;
     top: 900px;
     left: 250px;
     width: 600px;
-    margin: 2rem auto ;
+    margin: 2rem auto;
     height: 700px;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     float: right;
     margin-left: 20px;
     overflow: hidden;
-
+    text-align: center;
 }
 
-.main2{
-    
+.main2 {
+
     width: 600px;
-    margin: 2rem auto ;
+    margin: 2rem auto;
     height: 700px;
     right: 250px;
     position: absolute;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     float: left;
     margin-left: 20px;
     overflow: hidden;
-
+    text-align: center;
 }
 
-.main3{
+.main3 {
     display: block;
     position: absolute;
     top: 900px;
     right: 250px;
     width: 600px;
-    margin: 2rem auto ;
+    margin: 2rem auto;
     height: 700px;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     float: right;
     margin-right: 20px;
     overflow: hidden;
-
+    text-align: center;
 }
-.main4{
+
+.main4 {
     display: block;
     position: absolute;
     top: 1730px;
     left: 250px;
     width: 600px;
-    margin: 2rem auto ;
+    margin: 2rem auto;
     height: 700px;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     float: right;
     margin-left: 20px;
@@ -92,250 +94,274 @@ header{
     text-align: center;
 
 }
-.main5{
-    
+
+.main5 {
+
     display: block;
     position: absolute;
     top: 1730px;
     right: 250px;
     width: 600px;
-    margin: 2rem auto ;
+    margin: 2rem auto;
     height: 700px;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     float: right;
     margin-right: 20px;
     overflow: hidden;
     text-align: center;
 }
-.main6{
+
+.main6 {
     display: block;
     position: absolute;
     top: 2600px;
     left: 250px;
     width: 600px;
-    margin: 2rem auto ;
+    margin: 2rem auto;
     height: 700px;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     float: right;
     margin-left: 20px;
     overflow: hidden;
-
+    text-align: center;
 }
-.main7{   
+
+.main7 {
     display: block;
     position: absolute;
     top: 2600px;
     right: 250px;
     width: 600px;
-    margin: 2rem auto ;
+    margin: 2rem auto;
     height: 700px;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     float: right;
     margin-right: 20px;
     overflow: hidden;
+    text-align: center ;
 }
-.main8{
+
+.main8 {
     display: block;
     position: absolute;
     top: 3500px;
     left: 250px;
     width: 600px;
-    margin: 2rem auto ;
+    margin: 2rem auto;
     height: 700px;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     float: right;
     margin-left: 20px;
     overflow: hidden;
     text-align: center;
 }
-.main9{   
+
+.main9 {
     display: block;
     position: absolute;
     top: 3500px;
     right: 250px;
     width: 600px;
-    margin: 2rem auto ;
+    margin: 2rem auto;
     height: 700px;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     float: right;
     margin-right: 20px;
     overflow: hidden;
     text-align: center;
 }
-.main10{
+
+.main10 {
     display: block;
     position: absolute;
     top: 4350px;
     left: 250px;
     width: 600px;
-    margin: 2rem auto ;
+    margin: 2rem auto;
     height: 700px;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     float: right;
     margin-left: 20px;
     overflow: hidden;
     text-align: center;
 }
-.main11{   
+
+.main11 {
     display: block;
     position: absolute;
     top: 4350px;
     right: 250px;
     width: 600px;
-    margin: 2rem auto ;
+    margin: 2rem auto;
     height: 700px;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     float: right;
     margin-right: 20px;
     overflow: hidden;
+    text-align: center;
 }
-.main12{
+
+.main12 {
     display: block;
     position: absolute;
     top: 5200px;
     left: 250px;
     width: 600px;
-    margin: 2rem auto ;
+    margin: 2rem auto;
     height: 700px;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     float: right;
     margin-left: 20px;
     overflow: hidden;
-
+    text-align: center;
 }
-.main13{   
+
+.main13 {
     display: block;
     position: absolute;
     top: 5200px;
     right: 250px;
     width: 600px;
-    margin: 2rem auto ;
+    margin: 2rem auto;
     height: 700px;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     float: right;
     margin-right: 20px;
     overflow: hidden;
+    text-align: center;
 }
-.main14{
+
+.main14 {
     display: block;
     position: absolute;
     top: 6050px;
     left: 250px;
     width: 600px;
-    margin: 2rem auto ;
+    margin: 2rem auto;
     height: 700px;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     float: right;
     margin-left: 20px;
     overflow: hidden;
-
+    text-align: center;
 }
-.main15{   
+
+.main15 {
     display: block;
     position: absolute;
     top: 6050px;
     right: 250px;
     width: 600px;
-    margin: 2rem auto ;
+    margin: 2rem auto;
     height: 700px;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     float: right;
     margin-right: 20px;
     overflow: hidden;
+    text-align: center;
 }
-.main16{
+
+.main16 {
     display: block;
     position: absolute;
     top: 6900px;
     left: 250px;
     width: 600px;
-    margin: 2rem auto ;
+    margin: 2rem auto;
     height: 700px;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     float: right;
     margin-left: 20px;
     overflow: hidden;
-
+    text-align: center;
 }
-.main17{
+
+.main17 {
     display: block;
     position: absolute;
     top: 6900px;
     right: 250px;
     width: 600px;
-    margin: 2rem auto ;
+    margin: 2rem auto;
     height: 700px;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     float: right;
     margin-right: 20px;
     overflow: hidden;
+    text-align: center;
 }
-.main18{
+
+.main18 {
     display: block;
     position: absolute;
     top: 7750px;
     left: 250px;
     width: 600px;
-    margin: 2rem auto ;
+    margin: 2rem auto;
     height: 700px;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     float: right;
     margin-left: 20px;
     overflow: hidden;
+    text-align: center;
 
 }
-.main19{
+
+.main19 {
     display: block;
     position: absolute;
     top: 7750px;
     right: 250px;
     width: 600px;
-    margin: 2rem auto ;
+    margin: 2rem auto;
     height: 700px;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     float: right;
     margin-right: 20px;
     overflow: hidden;
+    text-align: center;
 }
-.main20{
+
+.main20 {
     display: block;
     position: absolute;
     top: 8600px;
     left: 250px;
     width: 600px;
-    margin: 2rem auto ;
+    margin: 2rem auto;
     height: 700px;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     float: right;
     margin-left: 20px;
     overflow: hidden;
-
+    text-align: center;
 }
-.main21{
+
+.main21 {
     display: block;
     position: absolute;
     top: 8600px;
     right: 250px;
     width: 600px;
-    margin: 2rem auto ;
+    margin: 2rem auto;
     height: 700px;
-    box-shadow: 3px 3px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     float: right;
     margin-right: 20px;
@@ -347,76 +373,106 @@ header{
     height: 450px;
     background-size: cover;
 }
-.pic{
+
+.pic {
     background-image: url(/ถั่วดินโคก.jpg);
     overflow: hidden;
 }
-.pic1{
+
+.pic1 {
     background-image: url(/มะตูมนิ่ม.jpg);
 }
 
-.pic2{
+.pic2 {
     background-image: url(/เทพทาโร.jpg);
 }
-.pic3{
+
+.pic3 {
     background-image: url(/มะหาด1.jpg);
 }
-.pic4{
+
+.pic4 {
     background-image: url(/เร่ว.jpg);
 }
-.pic5{
+
+.pic5 {
     background-image: url(/หัวร้อยรู.jpg);
 }
-.pic6{
+
+.pic6 {
     background-image: url(/กระทุ่มนา.jpg);
 }
-.pic7{
+
+.pic7 {
     background-image: url(/ขันทองพยาบาท.webp);
 }
-.pic8{
+
+.pic8 {
     background-image: url(/จุกโรหินี.webp);
 }
-.pic9{
+
+.pic9 {
     background-image: url(/ชะเอมไทย.jpg);
 }
-.pic10{
+
+.pic10 {
     background-image: url(/ชิงชี่.jpg);
 }
-.pic11{
+
+.pic11 {
     background-image: url(/ตับเต่าต้น-298x248.jpg);
 }
-.pic12{
+
+.pic12 {
     background-image: url(/Clerodendrum-viscosum.jpg);
 }
-.pic13{
+
+.pic13 {
     background-image: url(/ต้นปลาไหลเผือก.jpg);
 }
-.pic14{
+
+.pic14 {
     background-image: url(/พังคี.jpg);
 }
-.pic15{
+
+.pic15 {
     background-image: url(/ดอกมะคังแดง.webp);
 }
-.pic16{
+
+.pic16 {
     background-image: url(/สะค้าน.webp);
 }
-.pic17{
+
+.pic17 {
     background-image: url(/สารภีป่า.jpg);
 }
-.pic18{
-    background-image: url(/อบเชยไทย.jpg);
+
+.pic18 {
+    background-image: url(/ดอกอบเชยไทย.jpg);
 }
-.pic19{
+
+.pic19 {
     background-image: url(/เฉียงพร้านางแอ.jpg);
 }
-.pic20{
+
+.pic20 {
     background-image: url(/เถาเอ็นอ่อน.jpg);
 }
-.pic21{
+
+.pic21 {
     background-image: url(/sacred-is-good-medicine-4.jpg);
 }
 
-
+.name {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.footer{
+    background-color: antiquewhite;
+    width: 500px;
+    height: 20px;
+    margin-bottom: 20px;
+}
 
 
 
@@ -425,6 +481,7 @@ header{
     text-align: center;
     border-bottom: 2px solid #e5e5e5;
 }
-.text1{
+
+.text1 {
     color: black;
 }
