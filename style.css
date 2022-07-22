@@ -468,10 +468,13 @@ header {
     margin-right: 5px;
 }
 .footer{
-    background-color: antiquewhite;
-    width: 500px;
-    height: 20px;
-    margin-bottom: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(103, 200, 218);
+    color: white;
+    text-align: center;
 }
 
 
@@ -480,6 +483,7 @@ header {
 .content {
     text-align: center;
     border-bottom: 2px solid #e5e5e5;
+    background-color: antiquewhite;
 }
 
 .text1 {
