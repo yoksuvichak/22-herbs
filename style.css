@@ -15,6 +15,9 @@ header {
     border-radius: 10px;
 
 }
+.herbim{
+
+}
 
 .main {
     width: 600px;
@@ -367,6 +370,7 @@ header {
     margin-right: 20px;
     overflow: hidden;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .img {
@@ -468,13 +472,14 @@ header {
     margin-right: 5px;
 }
 .footer{
-    position: fixed;
+    position: relative;
     left: 0;
-    bottom: 0;
+    bottom: -9300px;
     width: 100%;
-    background-color: rgb(103, 200, 218);
-    color: white;
+    background-color: rgb(90, 185, 162);
+    color: black;
     text-align: center;
+    
 }
 
 
